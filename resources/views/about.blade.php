@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header"><h1 class="text-center">Equipo</h1></div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,8 +14,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    <h1 class="text-center">Equipo</h1> 
 
                     <!--Se crean las tarjetas para mostrar el avatar y informacion de los estudiantes-->
                     <div class="card-group" style="width: 43rem;">
